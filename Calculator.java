@@ -3,10 +3,12 @@ public class Calculator {
         int a = 1;
         int b = 2;
         int erg;
-        String Rechner = "UCL";
+        String rechner = "UCL";
+        String rechnername;
 
         erg = a + b;
+        rechnername = rechner + erg;
 
-        System.out.println("Mein Name ist: " + Rechner + erg);
+        System.out.println("Mein Name ist: " + rechnername);
     }
 }
