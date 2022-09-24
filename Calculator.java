@@ -1,20 +1,48 @@
 public class Calculator {
     public static void main(String[] args) {
-        int a = 1;
-        int b = 2;
-        int erg;
-        String rechner = "UCL";
-        String rechnername;
+        int a = 32;
+        int b = 10;
 
-        erg = a + b;
-        rechnername = rechner + erg;
+        System.out.println(add(a, b));
+        System.out.println(sub(a ,b));
+        System.out.println(multipli(a , b));
+        System.out.println(dividi(a, b));
+        System.out.println(restwert(a ,b));
 
-        //STRG + ALT + v --> Variable erzeugen
-        int erg2 = a + b;
+    }
 
-        //soutv --> erspart Tipparbeit; muss die Variable auswählen
-        System.out.println("erg2 = " + erg2);
+    public static int add (int a, int b) {
+        int result;
+        result = a + b;
 
-        System.out.println("Mein Name ist: " + rechnername);
+        return result;
+    }
+
+    public static int sub (int a, int b) {
+        int result;
+        result = a - b;
+
+        return result;
+    }
+
+    public static int multipli (int a, int b) {
+        int result;
+        result = a * b;
+
+        return result;
+    }
+
+    public static double dividi (int a, int b) {
+        double result;
+        result = a / (1.0*b);
+
+        return result;
+    }
+
+    public static int restwert (int a, int b) {
+        int result;
+        result = a % b;
+
+        return result;
     }
 }
