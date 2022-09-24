@@ -34,9 +34,15 @@ public class Calculator {
 
     public static double dividi (int a, int b) {
         double result;
-        result = a / (1.0*b);
+        if (b != 0) {
+            result = a / (1.0 * b);
 
-        return result;
+            return result;
+        }
+        else {
+            return 0;
+        }
+
     }
 
     public static int restwert (int a, int b) {
