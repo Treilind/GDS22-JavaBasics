@@ -9,6 +9,12 @@ public class Calculator {
         erg = a + b;
         rechnername = rechner + erg;
 
+        //STRG + ALT + v --> Variable erzeugen
+        int erg2 = a + b;
+
+        //soutv --> erspart Tipparbeit; muss die Variable auswählen
+        System.out.println("erg2 = " + erg2);
+
         System.out.println("Mein Name ist: " + rechnername);
     }
 }
