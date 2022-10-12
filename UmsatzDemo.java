@@ -3,6 +3,7 @@ public class UmsatzDemo {
     public static void main(String[] args) {
         int yeymehrumsatz = 0;
         double[] umseatze2021 = new double[12];
+
         umseatze2021[0] = 22000;
         umseatze2021[1] = 32000; //1
         umseatze2021[2] = 33000;
